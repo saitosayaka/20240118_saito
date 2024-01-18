@@ -1,0 +1,138 @@
+.body {
+    width: 100vw;
+}
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+}
+.header_img {
+    width: 250px;
+}
+.header_nav {
+    margin-left: 70%;
+}
+.header_nav_content {
+    display: flex;
+    list-style: none;
+}
+.header_nav_item {
+    padding: 0 30px;
+    font-size: 30px;
+    color: rgb(116, 117, 119);
+}
+
+/*メイン*/
+.main_content {
+    position:relative;
+    display: inline-block;
+}
+.first_view {
+    width: 100vw;
+    margin-left: 50%;
+    margin-bottom: 90px;
+    z-index: 0;
+}
+.main_absolute {
+    position: absolute;
+    left: 540px;
+    top: 10px;
+    z-index: 10;
+    font-size: 40px;
+}
+.main_ttl {
+    color: mediumvioletred; 
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 100px;
+        }
+.main_sub_ttl {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: mediumvioletred;
+}
+.main_sub_ttl2 {
+    font-size: 25px;
+    margin-top: 0px;
+    color:darkgray;
+}
+.green {
+    color:rgb(13, 156, 172);
+}
+
+/*ニュース*/
+.news_content {
+
+}
+.news {
+
+}
+.small_ttl {
+    color: mediumvioletred;
+        font-family: "Indie Flower", cursive;
+        font-style: normal;
+        font-size: 30px;
+        margin: 0 27%;
+}
+.news_ttl {
+    margin: 0 26%;
+    font-size: 50px;
+    color: rgb(125, 122, 122);
+}
+.news_table {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    font-size: 30px;
+    color: rgb(102, 100, 100);
+}
+.news_group {
+    border-top: 2px solid #ddd;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    width: 140%;
+}
+.news_group:last-child {
+    border-bottom: 3px solid gray;
+}
+.news_group:first-child {
+    border-top: 3px solid gray;
+}
+.date {
+    
+
+}
+.news_item {
+    background-color: mediumvioletred;
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 0 20px;
+}
+.news_item2 {
+
+}
+.about {
+    
+}
+.about_ttl {
+    display: inline-block;
+    margin: 0 50%;
+    font-size: 50px;
+}
+.about_item {
+    display: flex;
+    
+}
+.about_explanation {
+
+}
+.p_item {
+
+}
+.about_img {
+    width: 600px;
+}
