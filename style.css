@@ -32,22 +32,21 @@
 .first_view {
     width: 100vw;
     margin-left: 50%;
-    margin-bottom: 90px;
+    margin-bottom: 150px;
     z-index: 0;
 }
 .main_absolute {
     position: absolute;
-    left: 540px;
-    top: 10px;
+    left: 260px;
+    top: 50px;
     z-index: 10;
-    font-size: 40px;
 }
 .main_ttl {
     color: mediumvioletred; 
     font-family: "Indie Flower", cursive;
     font-weight: bold;
     font-style: normal;
-    font-size: 100px;
+    font-size: 110px;
         }
 .main_sub_ttl {
     font-size: 35px;
@@ -66,7 +65,7 @@
 
 /*ニュース*/
 .news_content {
-
+    margin-left: 300px;
 }
 .news {
 
@@ -76,10 +75,10 @@
         font-family: "Indie Flower", cursive;
         font-style: normal;
         font-size: 30px;
-        margin: 0 27%;
+        margin: 0 10%;
 }
 .news_ttl {
-    margin: 0 26%;
+    margin: 0 10%;
     font-size: 50px;
     color: rgb(125, 122, 122);
 }
@@ -115,8 +114,15 @@
 .news_item2 {
 
 }
+
+/*アバウト*/
 .about {
     
+}
+.about_content {
+    background-color: #f8f8f8;
+    margin-left:100px;
+    width: 100vw;
 }
 .about_ttl {
     display: inline-block;
@@ -125,14 +131,125 @@
 }
 .about_item {
     display: flex;
-    
+
 }
 .about_explanation {
-
+    font-size: 30px;
+    color: gray;
 }
 .p_item {
 
 }
 .about_img {
+    width: 60vw;
+}
+
+/*サービス*/
+.service_content {
+
+}
+.service {
+
+}
+.service_ ttl {
+
+}
+.grid_parent {
+    display: grid;
+    grid-template-rows: 300px 300px 100px 200px;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+}
+.box_img {
+    width: 200px;
+}
+.box1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: #004e4e;
+}
+.box2 {
+    grid-column: 1/2;
+        grid-row: 2/3;
+        background: #008888;
+}
+.box3 {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        background: #049fb3;
+}
+
+.grid__parent div {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+/*ブログ*/
+.blog_flex {
+
+    }
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+.blog {
+
+}
+.blog_ttl {
+
+}
+blog_card {
+    display: inline-block;
     width: 600px;
+    }
+.blog_img {
+    width: 600px;
+    border-radius: 20px 20px 0 0;
+}
+.blog_note {
+    display: inline;
+    border-radius: 20px 0 0 0;
+    position: absolute;
+    left: 0px;
+    transform: translate(0,-20px);
+    padding:10px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: mediumvioletred;
+}
+.blog_card_item {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 0 20%;
+}
+.card_comment {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.card_tag {
+    display: inline-block;
+    color: #008888;
+}
+.card_tag2 {
+    display: inline-block;
+    margin-left: 20px;
+    color: #888888;
+}
+
+/*カンパニー*/
+.company_content {
+
+}
+.company {
+
+}
+.company_ttl {
+
+}
+.company_table {
+
+}
+.company_item {
+
 }
