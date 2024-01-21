@@ -6,19 +6,23 @@
     padding: 0 30px;
 }
 .header_img {
-    width: 250px;
+    width: 200px;
 }
 .header_nav {
-    margin-left: 70%;
+    margin-left: 200px;
+
 }
 .header_nav_content {
     display: flex;
-    list-style: none;
 }
 .header_nav_item {
-    padding: 0 30px;
-    font-size: 30px;
+    padding: 0 20px;
+    font-size: 20px;
     color: rgb(116, 117, 119);
+}
+a {
+    text-decoration: none;
+    color:grey;
 }
 
 /*メイン*/
@@ -27,17 +31,16 @@
 }
 .main_relative{
     position: relative;
-    width: 100vw;
 }
 .first_view {
-    width: 100vw;
+    width: 730px;
     margin-left: 50%;
     margin-bottom: 150px;
     z-index: 0;
 }
 .main_absolute {
     position: absolute;
-    left: 260px;
+    left: 435px;
     top: 50px;
     z-index: 10;
 }
@@ -46,18 +49,18 @@
     font-family: "Indie Flower", cursive;
     font-weight: bold;
     font-style: normal;
-    font-size: 110px;
+    font-size: 70px;
         }
 .main_sub_ttl {
-    font-size: 35px;
+    font-size: 24px;
     font-weight: bold;
     margin-top: 50px;
     color: mediumvioletred;
 }
 .main_sub_ttl2 {
-    font-size: 25px;
-    line-height: 40px;
-    margin-top: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 10px;
     color:darkgray;
 }
 .green {
@@ -66,7 +69,7 @@
 
 /*ニュース*/
 .news_content {
-    margin-left: 300px;
+    margin-right: 200px;
 }
 .news {
 
@@ -75,20 +78,20 @@
     color: mediumvioletred;
         font-family: "Indie Flower", cursive;
         font-style: normal;
-        font-size: 30px;
-        margin: 0 10%;
+        font-size: 20px;
+        margin-left: 23%;
 }
 .news_ttl {
-    margin-left: 10%;
+    margin-left: 23%;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 25px;
     color: rgb(125, 122, 122);
 }
 .news_table {
     margin: 0 auto;
     margin-bottom: 80px;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(102, 100, 100);
 }
 .news_group {
@@ -112,7 +115,7 @@
     background-color: mediumvioletred;
     border-radius: 30px;
     color: aliceblue;
-    padding: 0 20px;
+    padding: 5px 20px;
     margin: 0 20px;
 }
 .news_item2 {
@@ -121,31 +124,41 @@
 
 /*アバウト*/
 .about {
-    
+    margin-left: 47%;
+    margin-top: 50px;
 }
 .about_content {
     display: inline-block;
     background-color: #f8f8f8;
-    margin-left:400px;
+    width: 100%;
+    padding-bottom: 50px;
 }
 .about_ttl {
-    margin: 0 50%;
-    font-size: 50px;
+    margin-left: 35%;
+    margin-bottom: 40px;
+    font-size: 30px;
 }
 .about_item {
     display: flex;
-
 }
 .about_explanation {
-    font-size: 30px;
+    font-size: 15px;
     color: gray;
+    line-height: 30px;
+}
+.about_explanation2 {
+    font-size: 15px;
+    color: gray;
+    margin-top: 30px;
+    line-height: 30px;
 }
 .p_item {
-
+    margin-left: 200px;
 }
 .about_img {
-    width: 500px;
-    margin: 0 200px;
+    width: 350px;
+    margin-left:250px;
+
 }
 
 /*サービス*/
@@ -153,83 +166,102 @@
 
 }
 .service {
-
+    margin-left: 200px;
+    margin-top: 70px;
 }
-.service_ ttl {
+.service_ttl {
+    font-size: 25px;
+    color: gray;
+    margin-left: 200px;
+    margin-bottom: 40px;
 
 }
 .grid_parent {
     display: grid;
-    grid-template-rows: 300px 300px 100px 200px;
-    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 2fr 2fr;
 }
 .box_img {
-    width: 200px;
+    width: 100px;
+}
+.box_explanation {
+    font-size: 10px;
+    line-height: 20px;
 }
 .box1 {
     grid-column: 1/2;
-    grid-row: 1/2;
-    background: #004e4e;
+    grid-row: 1/3;
+    background: hsl(328, 92%, 39%);
+    display: inline-block;
 }
 .box2 {
     grid-column: 1/2;
-        grid-row: 2/3;
-        background: #008888;
+    grid-row: 2/3;
+    background: #b55888;
+    display: inline-block;
 }
 .box3 {
-        grid-column: 2/4;
-        grid-row: 1/2;
-        background: #049fb3;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #bb7a9c;
+    display: inline-block;
 }
 
 .grid__parent div {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
 }
 
 /*ブログ*/
 .blog_flex {
-
-    }
-    .flex {
-        display: flex;
-        justify-content: space-between;
-    }
+    margin-bottom: 180px;
+    padding-bottom: 40px;
+    background-color: #f4f5f7;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
 .blog {
-
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 200px;
 }
 .blog_ttl {
-
+    margin-bottom: 30px;
+    margin-left: 200px;
+    font-size: 25px;
+    color: gray;
 }
 blog_card {
+    width: 70%;
     display: inline-block;
-    width: 600px;
     }
 .blog_img {
-    width: 600px;
+    width: 70%;
     border-radius: 20px 20px 0 0;
 }
 .blog_note {
-    display: inline;
-    border-radius: 20px 0 0 0;
+    display: inline-block;
     position: absolute;
-    left: 0px;
-    transform: translate(0,-20px);
+    transform: translate(-344px,0px);
+    border-radius: 20px 0 0 0;
     padding:10px;
     font-size: 20px;
     color: aliceblue;
     background-color: mediumvioletred;
 }
 .blog_card_item {
-    display: inline-block;
     padding: 15px 25px;
-    margin: 0 20%;
 }
 .card_comment {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 30px;
     font-weight: 400;
+    font-weight: bold;
+    color: grey;
+    line-height: 25px;
 }
 .card_tag {
     display: inline-block;
@@ -237,23 +269,143 @@ blog_card {
 }
 .card_tag2 {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 60px;
     color: #888888;
 }
+.card_guid {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid mediumvioletred;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 20px 80px;
+    color: mediumvioletred;
+    margin-left: 620px;
+    margin-top: 30px;
+    }
 
 /*カンパニー*/
 .company_content {
-
+    margin-bottom: 70px;
 }
 .company {
-
+    margin-top:30px;
+    margin-bottom: 20px;
+    margin-left: 300px;
 }
 .company_ttl {
+    margin-bottom: 50px;
+    margin-left: 300px;
+    font-size: 25px;
+    color: grey;
 
 }
 .company_table {
-
+    border: 1px solid grey;
+    margin:0 auto;
+    width:  60%;
 }
 .company_item {
+    border: 1px solid grey;
+    font-size: 20px;
+    padding: 20px 0 20px 10px;
+    text-align: left;
+    background-color: #f4f5f7;
+    color: gray;
+}
+.company_item2 {
+    border: 1px solid grey;
+    font-size: 20px;
+    padding: 20px 20px 20px 10px;
+    color: grey;
+}
 
+/*インフォ*/
+.info_content {
+    display: flex;
+    position: relative;
+}
+.info_img {
+    width: 100%;
+}
+.info_img2 {
+    width: 100%;
+}
+.info_ttl {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.info_ttl2 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.form_content {
+
+}
+.form_guid {
+    display: inline-block;
+    margin: 80px 0 30px 550px;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+
+}
+.border {
+    position: relative;
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+}
+.border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 2px;
+    height: 40px;
+    margin: auto;
+    background-color: mediumvioletred;
+}
+.form_btn {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 20px 80px;
+    color:#f4ecec;
+    background: linear-gradient(90deg, #ee64a4, #d61080);
+    box-shadow: 0 8px 0 rgb(116, 10, 77);
+    margin-left: 615px;
+    margin-bottom: 50px;
+}
+.form_btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    background: url(img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+    margin-left: 15px;
+}
+.footer_content {
+    text-align: center;
+    padding: 30px;
+    background-color: #f4f5f7;
+    color:grey;
 }
