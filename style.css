@@ -8,7 +8,7 @@ body {
     padding: 0 30px;
 }
 .header_img {
-    width: 200px;
+    width: 130px;
 }
 .header_nav {
     margin-left: auto;
@@ -19,7 +19,7 @@ body {
 }
 .header_nav_item {
     padding: 0 20px;
-    font-size: 12px;
+    font-size: 1vw;
     color: rgb(116, 117, 119);
 }
 a {
@@ -38,11 +38,11 @@ a {
     display: block;
     width: 50%;
     margin-left: auto;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
 }
 .main_absolute {
     position: absolute;
-    left: 30%;
+    left: 28%;
     top: 20px;
 }
 .main_ttl {
@@ -50,16 +50,16 @@ a {
     font-family: "Indie Flower", cursive;
     font-weight: bold;
     font-style: normal;
-    font-size: 45px;
+    font-size: 5vw;
         }
 .main_sub_ttl {
-    font-size: 17px;
+    font-size: 2vw;
     font-weight: bold;
     margin-top: 50px;
     color: mediumvioletred;
 }
 .main_sub_ttl2 {
-    font-size: 12px;
+    font-size: 1vw;
     line-height: 30px;
     margin-top: 10px;
     color:darkgray;
@@ -73,6 +73,7 @@ a {
     margin-right: 100px;
 }
 .news {
+    margin-left: 20%;
 
 }
 .small_ttl {
@@ -80,11 +81,11 @@ a {
         font-family: "Indie Flower", cursive;
         font-style: normal;
         font-size: 20px;
-        margin-left: 23%;
+        margin-left: 25%;
 }
 .news_ttl {
     display: block;
-    margin-left: 20%;
+    margin-left: 23vw;
     margin-top: 15px;
     margin-bottom: 30px;
     font-size: 25px;
@@ -98,7 +99,7 @@ a {
 }
 .news_group {
     border-top: 2px solid #ddd;
-    padding: 24px 0;
+    padding: 15px 0;
     display: flex;
     align-items: center;
     width: 120%;
@@ -167,6 +168,7 @@ a {
 .service_content {
     width: 700px;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 .service {
     margin-top: 70px;
@@ -234,18 +236,21 @@ a {
 
 /*ブログ*/
 .blog_flex {
-    margin-bottom: 180px;
+    margin-bottom: 120px;
+    padding-top: 30px;
     padding-bottom: 40px;
     background-color: #f4f5f7;
 }
 .flex {
     display: flex;
-    justify-content: center;
+    margin: auto;
+    width: 70%;
 }
 .blog {
     margin-top: 30px;
     margin-bottom: 10px;
     margin-left: 200px;
+    font-size: 15px;
 }
 .blog_ttl {
     margin-bottom: 30px;
@@ -258,50 +263,55 @@ a {
     position: relative;
     background-color: #f8f8f8;
     border: 1px solid none;
+    border-radius: 0 0 10px 10px;
+    margin: 0 20px;
     }
 .blog_img {
-    width: 70%;
-    border-radius: 20px 20px 0 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 .blog_note {
     display: inline-block;
     position: absolute;
     left: 0px;
-    border-radius: 20px 0 0 0;
+    border-radius: 10px 0 0 0;
     padding:10px;
-    font-size: 20px;
+    font-size: 10px;
     color: aliceblue;
     background-color: mediumvioletred;
 }
 .blog_card_item {
-    padding: 15px 25px;
+    text-align: center;
+    padding-top: 10px;
 }
 .card_comment {
-    font-size: 15px;
+    font-size: 10px;
     margin-bottom: 30px;
     font-weight: bold;
     color: grey;
-    line-height: 25px;
+    line-height: 15px;
 }
 .card_tag {
     display: inline-block;
-    color: #008888;
-    font-size: 12px;
+    color: #888888;
+    font-size: 10px;
 }
 .card_tag2 {
     display: inline-block;
-    margin-left: 60px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     color: #888888;
-    font-size: 12px;
+    font-size: 10px;
 }
 .card_guid {
     display: block;
-    width: 100px;
+    width: 60px;
     text-decoration: none;
     border: 2px solid mediumvioletred;
     border-radius: 30px;
-    font-size: 15px;
-    padding: 20px 80px;
+    font-size: 10px;
+    padding: 15px 60px;
     color: mediumvioletred;
     margin: auto;
     margin-top: 30px;
@@ -314,11 +324,11 @@ a {
 .company {
     margin-top:30px;
     margin-bottom: 20px;
-    margin-left: 300px;
+    margin-left: 20%;
 }
 .company_ttl {
     margin-bottom: 50px;
-    margin-left: 300px;
+    margin-left: 20%;
     font-size: 25px;
     color: grey;
 
@@ -380,7 +390,7 @@ a {
 }
 .form_guid {
     display: block;
-    width: 420px;
+    width: 400px;
     margin: auto;
     margin-bottom: 30px;
     font-weight: bold;
